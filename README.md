@@ -1,2 +1,1 @@
-# tender
-Submission tracker and journal for working writers.
+At the moment this is an empty space, but there is so much to come. Of little interest unless you're the sort who submits regularly or wants to do so.
