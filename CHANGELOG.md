@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Changed
 - 
 
+## 0.0.2 - 2016-11-5
+### Changed
+- Clean up design for temp lander
+
 ## 0.0.1 - 2016-11-5
 ### Added
 - Installed AdonisJs framework
