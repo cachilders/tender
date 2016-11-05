@@ -11,9 +11,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Changed
 - 
 
-## 0.0.3 - 2016-11-5
+## 0.0.4 - 2016-11-5
 ### Added
-- Configured CI buildchain
+- Configure initial Postgres and Redis setup
 
 ### Changed
 - Typesetting

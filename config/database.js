@@ -1,7 +1,7 @@
 'use strict'
 
-const Env = use('Env')
-const Helpers = use('Helpers')
+const Env = use('Env');
+const Helpers = use('Helpers');
 
 module.exports = {
 
@@ -14,7 +14,7 @@ module.exports = {
   | interacting with SQL databases.
   |
   */
-  connection: Env.get('DB_CONNECTION', 'sqlite'),
+  connection: Env.get('DATABASE_URL', 'pg'),
 
   /*
   |--------------------------------------------------------------------------
@@ -67,12 +67,7 @@ module.exports = {
   */
   pg: {
     client: 'pg',
-    connection: {
-      host: Env.get('DB_HOST', 'localhost'),
-      user: Env.get('DB_USER', 'root'),
-      password: Env.get('DB_PASSWORD', ''),
-      database: Env.get('DB_DATABASE', 'adonis')
-    }
+    connection: Env.get('DATABASE_URL', 'localhost')
   }
 
-}
+};
