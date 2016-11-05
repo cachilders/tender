@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Changed
 - 
 
+## 0.0.3 - 2016-11-5
+### Added
+- Configured CI buildchain
+
 ## 0.0.2 - 2016-11-5
 ### Changed
 - Clean up design for temp lander

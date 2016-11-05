@@ -26,6 +26,7 @@
     "adonis-framework": "^3.0.4",
     "adonis-lucid": "^3.0.10",
     "adonis-middleware": "^1.0.8",
+    "babel": "^6.5.2",
     "standard": "^8.4.0",
     "youch": "^1.0.1"
   },
@@ -39,6 +40,10 @@
     "App": "./app"
   },
   "devDependencies": {
+    "babel-eslint": "^7.1.0",
+    "babel-plugin-transform-flow-strip-types": "^6.18.0",
+    "eslint": "^3.9.1",
+    "eslint-plugin-flowtype": "^2.25.0",
     "nodemon": "^1.11.0",
     "standard": "^8.5.0"
   }

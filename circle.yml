@@ -1,0 +1,19 @@
+##Core CircleCI settings
+
+machine:
+  timezone:
+    America/Los_Angeles
+  node:
+    version:
+      6.4.0
+  services:
+
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: tenderhaus
+  development:
+    branch: dev
+    heroku:
+      appname: tenderhaus-dev

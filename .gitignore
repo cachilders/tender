@@ -1,3 +1,6 @@
+.vscode
+.codekit-cache
+
 # Node modules
 node_modules
 
