@@ -15,3 +15,4 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - Installed AdonisJs framework
 - Made initial customizations
+- Add temporary logo to boilerplate design
