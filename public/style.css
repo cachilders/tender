@@ -1,5 +1,5 @@
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: sans-serif;
   -webkit-font-feature-settings: "kern", "liga", "pnum";
   -moz-font-feature-settings: "kern", "liga", "pnum";
   -ms-font-feature-settings: "kern", "liga", "pnum";
@@ -35,19 +35,20 @@ body {
 }
 
 .__banner .banner__inner h1 {
-  font-weight: 500;
-  font-size: 180px;
+  font-family: 'Jura', sans-serif;
+  text-transform: uppercase;
+  font-size: 7rem;
+  margin: 1rem;
   color: #ffffff;
 }
 
 .__banner .banner__inner h2 {
-  margin-bottom: 25px;
+  font-family: 'Bungee Hairline', sans-serif;
   text-align: center;
-  letter-spacing: 3px;
-  margin-top: 80px;
-  font-weight: 400;
-  text-transform: uppercase;
-  font-size: 16px;
+  letter-spacing: .2rem;
+    font-weight: 700;
+  margin: 1rem;
+  font-size: 1rem;
   color: #ffffff;
 }
 
