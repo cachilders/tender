@@ -27,11 +27,13 @@ const providers = [
   'adonis-lucid/providers/DatabaseProvider',
   'adonis-lucid/providers/LucidProvider',
   'adonis-lucid/providers/FactoryProvider',
+  'adonis-mail-provider/providers/MailProvider',
   'adonis-middleware/providers/AppMiddlewareProvider',
   'adonis-auth/providers/AuthManagerProvider',
+  'adonis-ally/providers/AllyProvider',
   'adonis-redis/providers/RedisFactoryProvider',
   'adonis-redis/providers/RedisProvider'
-]
+];
 
 /*
 |--------------------------------------------------------------------------
@@ -51,7 +53,7 @@ const aceProviders = [
   'adonis-commands/providers/GeneratorsProvider',
   'adonis-commands/providers/HelperCommandsProvider',
   'adonis-commands/providers/ReplProvider'
-]
+];
 
 /*
 |--------------------------------------------------------------------------
@@ -73,12 +75,13 @@ const aliases = {
   Hash: 'Adonis/Src/Hash',
   Helpers: 'Adonis/Src/Helpers',
   Lucid: 'Adonis/Src/Lucid',
+  Mail: 'Adonis/Addons/Mail',
   Middleware: 'Adonis/Src/Middleware',
   Route: 'Adonis/Src/Route',
   Schema: 'Adonis/Src/Schema',
   View: 'Adonis/Src/View',
   Redis: 'Adonis/Addons/Redis'
-}
+};
 
 /*
 |--------------------------------------------------------------------------
@@ -110,6 +113,6 @@ const commands = [
   'Adonis/Commands/DB:Seed',
   'Adonis/Commands/Migration:Status',
   'Adonis/Commands/Key:Generate'
-]
+];
 
-module.exports = { providers, aceProviders, aliases, commands }
+module.exports = { providers, aceProviders, aliases, commands };
