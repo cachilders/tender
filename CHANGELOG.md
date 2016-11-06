@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/) 
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## 0.1.1 - 2016-11-6
+### Added
+- Add development database seeds
+
+### Changed
+- Refactored and tested postgres instantiation
+
 ## 0.1.0 - 2016-11-5
 ### Added
 - Add core User, Submission, and Profile models

@@ -11,20 +11,39 @@
 |
 */
 
-const Factory = use('Factory')
+const Factory = use('Factory');
 
 /*
 |--------------------------------------------------------------------------
 | User Model Blueprint
 |--------------------------------------------------------------------------
-| Below is an example of blueprint for User Model. You can make use of
-| this blueprint inside your seeds to generate dummy data.
-|
 */
 Factory.blueprint('App/Model/User', (fake) => {
   return {
     username: fake.username(),
     email: fake.email(),
-    password: fake.password()
-  }
-})
+    password: fake.password(),
+    twitter: fake.twitter()
+  };
+});
+
+/*
+|--------------------------------------------------------------------------
+| Submission Model Blueprint
+|--------------------------------------------------------------------------
+*/
+Factory.blueprint('App/Model/Submission', (fake) => {
+  return {
+    // username: fake.username(),
+    submitted_to: fake.word(),
+    submission_method: fake.domain(),
+    contact_information: fake.email(),
+    due_date: fake.date({string: true, american: false}),
+    submitted_date: fake.date({string: true, american: false}),
+    status: fake.word(),
+    link_to_listing: fake.domain(),
+    notes: fake.paragraph(),
+    draft_url: fake.domain(),
+    draft_file: fake.wp8_anid2()
+  };
+});
