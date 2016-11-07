@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - 
 
 ### Changed
+- Moved social icons into Vue component logic
 - Made layout more responsive and browser agnostic
 - Adjusted linting rules
 

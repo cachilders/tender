@@ -5,16 +5,16 @@
       <h1>TENDER</h1>
       <h2>Submission Tracking for Authors</h2>
       <h2>Coming Soon</h2>
-      <ul>
-        <li>
-          <a href="https://twitter.com/cachilders" target="_blank">
-            <img src="../assets/img/twitter.svg">
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/cachilders/tender" target="_blank"><img src="../assets/img/github.svg"></a>
-        </li>
-      </ul>
+      <icons></icons>
     </div>
   </div>
 </template>
+
+<script>
+import Icons from '../components/Icons.vue';
+export default {
+  components: {
+    Icons
+  },
+};
+</script>
