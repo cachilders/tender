@@ -45,7 +45,7 @@ module.exports = {
     "camelcase": ["error", { "properties": "always" }],
     "consistent-return": "error",
     "arrow-spacing": "error",
-    "arrow-parens": ["error", "none"],
+    "arrow-parens": 0,
     "generator-star-spacing": ["error", "none"],
     "arrow-body-style": ["error", "as-needed"],
     "semi": ["error", "always"],
