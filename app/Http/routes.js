@@ -21,7 +21,7 @@ const Route = use('Route')
 */
 
 // Leaving this in place for the time to get a sense of mixing static and SPA
-Route.on('about').render('about');
+// Route.on('about').render('about');
 
 // Pre-vue wildcard route
 // Route.any('*', function * (request, response) {

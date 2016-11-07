@@ -4,12 +4,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/) 
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## Unplublished
+## 0.2.1 - 2016-11-7
 ### Added
-- 
+- Introduced scss directory structure
 
 ### Changed
-- 
+- Moved assets from public to src
 
 ## 0.2.0 - 2016-11-6
 ### Added
