@@ -4,12 +4,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/) 
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## Unreleased
+## 0.2.0
 ### Added
 - Incorporated password hashing user hook
+- Add and configure Vue 2 framework
 
 ### Changed
-- 
+- Many framework compatibility changes
+- Eslint config changes
 
 ## 0.1.1 - 2016-11-6
 ### Added

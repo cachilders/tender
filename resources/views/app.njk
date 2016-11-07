@@ -1,0 +1,11 @@
+{% extends 'master' %}
+
+{% block content %}
+  {% if context.initialState %}
+    <script type="text/javascript">window.__INITIAL_STATE__={{ serialize(context.initialState, { isJSON: true }) | safe }}</script>
+  {% endif %}
+  {{ APP | safe }}
+  <script src="{{ files.clientVendor }}"></script>
+  <script src="{{ files.client }}"></script>
+{% endblock %}
+

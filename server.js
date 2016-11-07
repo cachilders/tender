@@ -12,4 +12,7 @@
 const http = require('./bootstrap/http')
 http(function () {
   use('Event').fire('Http.start')
+
+  // Start the renderer bundle as soon as possible
+  use('App/Http/Controllers/WebAppController')
 })

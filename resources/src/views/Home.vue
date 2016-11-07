@@ -1,0 +1,10 @@
+<template>
+  <div class="__banner">
+    <div class="banner__inner">
+      <img src="/assets/logo.svg">
+      <h1>TENDER</h1>
+      <h2>Coming Soon</h2>
+      <h2>Submission Tracking for Authors<br />(and Other Thirsty Professionals)</h2>
+    </div>
+  </div>
+</template>

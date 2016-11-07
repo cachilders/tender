@@ -1,4 +1,10 @@
+# Vue
+dist/
+
+#VS Code
 .vscode
+
+# Codekit
 .codekit-cache
 
 # Node modules

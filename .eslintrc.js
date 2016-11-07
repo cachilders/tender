@@ -1,7 +1,8 @@
 module.exports = {
+  "root": true,
   "parser": "babel-eslint",
 
-  "extends": ["eslint:recommended"],
+  "extends": ["eslint:recommended", 'standard'],
 
   "parserOptions": {
     "ecmaVersion": 6,
@@ -21,11 +22,14 @@ module.exports = {
   },
 
   "plugins": [
-    "flowtype"
+    "flowtype",
+    "html"
   ],
 
   "globals": {
-    "define": true
+    "define": true,
+    "make": true,
+    "use": true
   },
 
   "settings": {
@@ -41,7 +45,8 @@ module.exports = {
     "camelcase": ["error", { "properties": "always" }],
     "consistent-return": "error",
     "arrow-spacing": "error",
-    "arrow-parens": ["error", "always"],
+    "arrow-parens": ["error", "none"],
+    "generator-star-spacing": ["error", "none"],
     "arrow-body-style": ["error", "as-needed"],
     "semi": ["error", "always"],
     "no-confusing-arrow": ["error", { "allowParens": false }],
