@@ -4,7 +4,6 @@
       <img src="../assets/img/logo.svg">
       <h1>TENDER</h1>
       <h2>Well, there's not much to say, here.</h2>
-      <h2>Still a long way to go.</h2>
     </div>
     <div class="__footer">
       <ul>

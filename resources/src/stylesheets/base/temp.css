@@ -4,6 +4,10 @@
   display: none;
 }
 
+html {
+  font-size: 0.8em;
+}
+
 body {
   font-family: sans-serif;
   -webkit-font-feature-settings: "kern", "liga", "pnum";
@@ -21,6 +25,8 @@ body {
 }
 
 .__banner {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
   background: #f66a60;
   background: -moz-radial-gradient(top, ellipse cover, #f66a60 11%, #503d67 99%, #503d67 100%);
   background: -webkit-gradient(radial, top center, 0, center center, 100%, color-stop(11%, #f66a60), color-stop(99%, #503d67), color-stop(100%, #503d67));
@@ -33,17 +39,16 @@ body {
 .__banner {
   height: 80vh;
   width: 100%;
-  padding-bottom: 30px;
+  display: flex;
   justify-content: center;
   align-items: center;
-  display: flex;
   text-align: center;
 }
 
 .__banner .banner__inner h1 {
   font-family: 'Jura', sans-serif;
   text-transform: uppercase;
-  font-size: 7rem;
+  font-size: 6rem;
   margin: 1rem;
   color: #ffffff;
 }
@@ -54,14 +59,13 @@ body {
   letter-spacing: .2rem;
     font-weight: 700;
   margin: 1rem;
-  font-size: 1rem;
+  font-size: 2rem;
   color: #ffffff;
 }
 
 .__banner .banner__inner p,
 .__banner .banner__inner a {
   color: #fff;
-  font-size: 24px;
   font-weight: 300;
 }
 
@@ -73,7 +77,7 @@ body {
 .__footer {
   text-align: center;
   position: absolute;
-  bottom: 30px;
+  bottom: 1rem;
   margin: auto;
   right: 0;
   left: 0;

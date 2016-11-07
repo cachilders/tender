@@ -3,8 +3,8 @@
     <div class="banner__inner">
       <img src="../assets/img/logo.svg">
       <h1>TENDER</h1>
+      <h2>Submission Tracking for Authors</h2>
       <h2>Coming Soon</h2>
-      <h2>Submission Tracking for Authors<br />(and Other Thirsty Professionals)</h2>
     </div>
     <div class="__footer">
       <ul>
