@@ -9,7 +9,17 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - 
 
 ### Changed
-– Improve image assets
+- 
+
+## 0.2.2 - 2016-11-8
+### Added
+- Add Bourbon, Bourbon Neat
+- Add Codekit into build process
+
+### Changed
+- Refactor stylesheet processing and loading
+- Change Twitter link to @tenderHaus
+- Improve image assets
 - Moved social icons into Vue component logic
 - Made layout more responsive and browser agnostic
 - Adjusted linting rules

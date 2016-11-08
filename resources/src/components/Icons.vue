@@ -1,7 +1,7 @@
 <template>
   <ul class="icons">
     <li>
-      <a href="https://twitter.com/cachilders" target="_blank">
+      <a href="https://twitter.com/tenderHaus" target="_blank">
         <img src="../assets/img/twitter.svg">
       </a>
     </li>

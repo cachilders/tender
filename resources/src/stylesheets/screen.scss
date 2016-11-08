@@ -1,5 +1,15 @@
 /* Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
-@import "base/fonts.scss";
+// Temp-to-hire
+
 @import "base/temp.css";
+
+// Global Partials
+
+@import "typesetting.scss";
+
+
+// Vendors
+
+@import "vendors/bourbon", "vendors/neat", "vendors/bitters/base";

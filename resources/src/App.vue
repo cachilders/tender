@@ -4,4 +4,4 @@
   </div>
 </template>
 
-<style src="./stylesheets/screen.scss"></style>
+<style src="./stylesheets/screen.css"></style>
