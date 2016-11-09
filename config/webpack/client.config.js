@@ -1,7 +1,7 @@
-const webpack = require('webpack')
-const base = require('./base.config')
-const vueConfig = require('./vue-loader.config')
-const filenames = require('../vue').filenames
+const webpack = require('webpack');
+const base = require('./base.config');
+const vueConfig = require('./vue-loader.config');
+const filenames = require('../vue').filenames;
 
 /*
 |--------------------------------------------------------------------------
@@ -29,7 +29,7 @@ const config = Object.assign({}, base, {
       filename: filenames.clientVendor
     })
   ])
-})
+});
 
 if (process.env.NODE_ENV === 'production') {
   // Use ExtractTextPlugin to extract CSS into a single file
@@ -45,7 +45,7 @@ if (process.env.NODE_ENV === 'production') {
     sass: ExtractTextPlugin.extract({ loader: 'css-loader!sass-loader?indentedSyntax', fallbackLoader: 'vue-style-loader' }),
     stylus: ExtractTextPlugin.extract({ loader: 'css-loader!stylus-loader', fallbackLoader: 'vue-style-loader' }),
     less: ExtractTextPlugin.extract({ loader: 'css-loader!less-loader', fallbackLoader: 'vue-style-loader' })
-  }
+  };
 
   config.plugins.push(
     new ExtractTextPlugin(filenames.css),
@@ -59,7 +59,7 @@ if (process.env.NODE_ENV === 'production') {
         warnings: false
       }
     })
-  )
+  );
 }
 
-module.exports = config
+module.exports = config;

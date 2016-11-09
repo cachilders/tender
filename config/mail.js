@@ -1,7 +1,7 @@
-'use strict'
+'use strict';
 
-const Helpers = use('Helpers')
-const Env = use('Env')
+const Helpers = use('Helpers');
+const Env = use('Env');
 
 module.exports = {
   /*
@@ -95,4 +95,4 @@ module.exports = {
   log: {
     toPath: Helpers.storagePath('logs/mail.eml')
   }
-}
+};

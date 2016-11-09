@@ -1,8 +1,8 @@
-const path = require('path')
-const resolve = file => path.resolve(__dirname, file)
-const webpack = require('webpack')
-const base = require('./base.config')
-const filenames = require('../vue').filenames
+const path = require('path');
+const resolve = file => path.resolve(__dirname, file);
+const webpack = require('webpack');
+const base = require('./base.config');
+const filenames = require('../vue').filenames;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,4 +24,4 @@ module.exports = Object.assign({}, base, {
       'process.env.VUE_ENV': '"server"'
     })
   ]
-})
+});

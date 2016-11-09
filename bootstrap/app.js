@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 /*
 |--------------------------------------------------------------------------
@@ -71,7 +71,7 @@ const aliases = {
   Command: 'Adonis/Src/Command',
   Config: 'Adonis/Src/Config',
   Database: 'Adonis/Src/Database',
-  Encryption : 'Adonis/Src/Encryption',
+  Encryption: 'Adonis/Src/Encryption',
   Env: 'Adonis/Src/Env',
   Event: 'Adonis/Src/Event',
   Factory: 'Adonis/Src/Factory',

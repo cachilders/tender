@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 const Submission = use('App/Model/Submission');
 
@@ -13,30 +13,30 @@ class SubmissionController {
     }
   }
 
-  * create(request, response) {
+  * create (request, response) {
     //
   }
 
-  * store(request, response) {
+  * store (request, response) {
     //
   }
 
-  * show(request, response) {
+  * show (request, response) {
     //
   }
 
-  * edit(request, response) {
+  * edit (request, response) {
     //
   }
 
-  * update(request, response) {
+  * update (request, response) {
     //
   }
 
-  * destroy(request, response) {
+  * destroy (request, response) {
     //
   }
 
 }
 
-module.exports = SubmissionController
+module.exports = SubmissionController;

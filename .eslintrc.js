@@ -39,7 +39,6 @@ module.exports = {
   },
 
   'rules': {
-    'strict': ['error', 'global'],
     'no-unused-vars': ['error', { 'vars': 'all', 'args': 'all', 'caughtErrors': 'none' }],
     'no-console': ['error', { allow: ['warn', 'error'] }],
     'camelcase': ['error', { 'properties': 'always' }],

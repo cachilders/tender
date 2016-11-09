@@ -1,8 +1,8 @@
-const path = require('path')
-const resolve = file => path.resolve(__dirname, file)
-const CleanWebpackPlugin = require('clean-webpack-plugin')
-const vueLoaderConfig = require('./vue-loader.config')
-const outputDir = require('../vue').outputDir
+const path = require('path');
+const resolve = file => path.resolve(__dirname, file);
+const CleanWebpackPlugin = require('clean-webpack-plugin');
+const vueLoaderConfig = require('./vue-loader.config');
+const outputDir = require('../vue').outputDir;
 
 /*
 |--------------------------------------------------------------------------
@@ -57,4 +57,4 @@ module.exports = {
       root: resolve('../../public')
     })
   ]
-}
+};

@@ -1,7 +1,6 @@
-'use strict'
+'use strict';
 
-const Route = use('Route')
-
+const Route = use('Route');
 
 /*
 |--------------------------------------------------------------------------
@@ -28,4 +27,4 @@ Route.resources('submissions', 'SubmissionController');
 //   yield response.sendView('home');
 // });
 
-Route.any('*', 'WebAppController.render')
+Route.any('*', 'WebAppController.render');
