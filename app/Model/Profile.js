@@ -4,7 +4,7 @@ const Lucid = use('Lucid');
 
 class Profile extends Lucid {
 
-  users() {
+  users () {
     return this.hasOne('App/Model/User');
   }
 

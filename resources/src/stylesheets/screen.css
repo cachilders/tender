@@ -1,6 +1,105 @@
 /* Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-@import url(base/temp.css);
+/* bungee-hairline-regular - latin */
+[v-cloak] {
+  display: none;
+}
+
+html {
+  font-size: 0.8em;
+}
+
+body {
+  font-family: sans-serif;
+  -webkit-font-feature-settings: "kern", "liga", "pnum";
+  -moz-font-feature-settings: "kern", "liga", "pnum";
+  -ms-font-feature-settings: "kern", "liga", "pnum";
+  font-feature-settings: "kern", "liga", "pnum";
+  -webkit-font-smoothing: antialiased;
+  font-weight: lighter;
+  background: #fff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.__banner {
+  background: #f66a60;
+  background: -moz-radial-gradient(top, ellipse cover, #f66a60 11%, #503d67 99%, #503d67 100%);
+  background: -webkit-gradient(radial, top center, 0, center center, 100%, color-stop(11%, #f66a60), color-stop(99%, #503d67), color-stop(100%, #503d67));
+  background: -webkit-radial-gradient(top, ellipse cover, #f66a60 11%, #503d67 99%, #503d67 100%);
+  background: -o-radial-gradient(top, ellipse cover, #f66a60 11%, #503d67 99%, #503d67 100%);
+  background: -ms-radial-gradient(top, ellipse cover, #f66a60 11%, #503d67 99%, #503d67 100%);
+  background: radial-gradient(ellipse at top, #f66a60 11%, #503d67 99%, #503d67 100%);
+}
+
+.__banner {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.__banner .banner__inner h1 {
+  font-family: 'Jura', sans-serif;
+  text-transform: uppercase;
+  font-size: 6rem;
+  margin: 1rem;
+  color: #fff;
+}
+
+.__banner .banner__inner h2 {
+  font-family: 'Bungee Hairline', sans-serif;
+  text-align: center;
+  letter-spacing: .2rem;
+  font-weight: 700;
+  margin: 1rem;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.__banner .banner__inner p,
+.__banner .banner__inner a {
+  color: #fff;
+}
+
+.__banner .banner__inner h2 span {
+  display: inline-block;
+}
+
+.__banner ul {
+  display: table;
+  margin: auto;
+}
+
+.__banner li {
+  border-left: solid 1px #fff;
+  display: table-cell;
+}
+
+.__banner li:first-child {
+  border: none;
+}
+
+.__banner li a {
+  transition: opacity 0.5s;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0px 30px;
+  font-size: 13px;
+  opacity: 0.8;
+  color: #fff;
+}
+
+.__banner li a:hover {
+  opacity: 1;
+}
+
 @font-face {
   font-family: 'Bungee Hairline';
   font-style: normal;
@@ -31,9 +130,7 @@ html {
 }
 
 button, [type='button'], [type='reset'], [type='submit'] {
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  appearance: none;
   background-color: #1565c0;
   border: 0;
   border-radius: 3px;
@@ -48,12 +145,8 @@ button, [type='button'], [type='reset'], [type='submit'] {
   padding: 0.75em 1.5em;
   text-align: center;
   text-decoration: none;
-  -webkit-transition: background-color 150ms ease;
   transition: background-color 150ms ease;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
   vertical-align: middle;
   white-space: nowrap;
 }
@@ -100,9 +193,7 @@ textarea {
 }
 
 [type='color'], [type='date'], [type='datetime'], [type='datetime-local'], [type='email'], [type='month'], [type='number'], [type='password'], [type='search'], [type='tel'], [type='text'], [type='time'], [type='url'], [type='week'], input:not([type]), textarea {
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  appearance: none;
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 3px;
@@ -110,7 +201,6 @@ textarea {
   box-sizing: border-box;
   margin-bottom: 0.75em;
   padding: 0.5em;
-  -webkit-transition: border-color 150ms ease;
   transition: border-color 150ms ease;
   width: 100%;
 }
@@ -132,18 +222,6 @@ textarea {
 
 [type='color']:disabled:hover, [type='date']:disabled:hover, [type='datetime']:disabled:hover, [type='datetime-local']:disabled:hover, [type='email']:disabled:hover, [type='month']:disabled:hover, [type='number']:disabled:hover, [type='password']:disabled:hover, [type='search']:disabled:hover, [type='tel']:disabled:hover, [type='text']:disabled:hover, [type='time']:disabled:hover, [type='url']:disabled:hover, [type='week']:disabled:hover, input:not([type]):disabled:hover, textarea:disabled:hover {
   border: 1px solid #ddd;
-}
-
-[type='color']::-webkit-input-placeholder, [type='date']::-webkit-input-placeholder, [type='datetime']::-webkit-input-placeholder, [type='datetime-local']::-webkit-input-placeholder, [type='email']::-webkit-input-placeholder, [type='month']::-webkit-input-placeholder, [type='number']::-webkit-input-placeholder, [type='password']::-webkit-input-placeholder, [type='search']::-webkit-input-placeholder, [type='tel']::-webkit-input-placeholder, [type='text']::-webkit-input-placeholder, [type='time']::-webkit-input-placeholder, [type='url']::-webkit-input-placeholder, [type='week']::-webkit-input-placeholder, input:not([type])::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
-  color: #858585;
-}
-
-[type='color']::-moz-placeholder, [type='date']::-moz-placeholder, [type='datetime']::-moz-placeholder, [type='datetime-local']::-moz-placeholder, [type='email']::-moz-placeholder, [type='month']::-moz-placeholder, [type='number']::-moz-placeholder, [type='password']::-moz-placeholder, [type='search']::-moz-placeholder, [type='tel']::-moz-placeholder, [type='text']::-moz-placeholder, [type='time']::-moz-placeholder, [type='url']::-moz-placeholder, [type='week']::-moz-placeholder, input:not([type])::-moz-placeholder, textarea::-moz-placeholder {
-  color: #858585;
-}
-
-[type='color']:-ms-input-placeholder, [type='date']:-ms-input-placeholder, [type='datetime']:-ms-input-placeholder, [type='datetime-local']:-ms-input-placeholder, [type='email']:-ms-input-placeholder, [type='month']:-ms-input-placeholder, [type='number']:-ms-input-placeholder, [type='password']:-ms-input-placeholder, [type='search']:-ms-input-placeholder, [type='tel']:-ms-input-placeholder, [type='text']:-ms-input-placeholder, [type='time']:-ms-input-placeholder, [type='url']:-ms-input-placeholder, [type='week']:-ms-input-placeholder, input:not([type]):-ms-input-placeholder, textarea:-ms-input-placeholder {
-  color: #858585;
 }
 
 [type='color']::placeholder, [type='date']::placeholder, [type='datetime']::placeholder, [type='datetime-local']::placeholder, [type='email']::placeholder, [type='month']::placeholder, [type='number']::placeholder, [type='password']::placeholder, [type='search']::placeholder, [type='tel']::placeholder, [type='text']::placeholder, [type='time']::placeholder, [type='url']::placeholder, [type='week']::placeholder, input:not([type])::placeholder, textarea::placeholder {
@@ -266,7 +344,6 @@ p {
 a {
   color: #1565c0;
   text-decoration: none;
-  -webkit-transition: color 150ms ease;
   transition: color 150ms ease;
 }
 

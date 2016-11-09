@@ -75,6 +75,33 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/app\/Http\/Controllers\/ProfileController.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/app\/Http\/Controllers\/ProfileController-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/app\/Http\/Controllers\/SubmissionController.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/app\/Http\/Controllers\/SubmissionController-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/app\/Http\/Controllers\/UserController.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/app\/Http\/Controllers\/UserController-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/app\/Http\/Controllers\/WebAppController.js": {
 		"ft": 64,
 		"mi": 0,
@@ -615,6 +642,19 @@
 		"oAP": "\/resources\/src\/stylesheets\/base\/.gitkeep",
 		"oF": 0
 		},
+	"\/resources\/src\/stylesheets\/base\/_typefaces.scss": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/resources\/src\/stylesheets\/base\/_typefaces.css",
+		"oF": 0,
+		"oS": 1,
+		"uL": 1
+		},
 	"\/resources\/src\/stylesheets\/base\/temp.css": {
 		"aP": 0,
 		"bl": 0,
@@ -622,29 +662,6 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/resources\/src\/stylesheets\/base\/temp-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/resources\/src\/stylesheets\/base\/typesetting.scss": {
-		"aP": 1,
-		"bl": 1,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/resources\/src\/stylesheets\/base\/typesetting.css",
-		"oF": 0,
-		"oS": 1,
-		"uL": 1
-		},
-	"\/resources\/src\/stylesheets\/compiled-css\/screen.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/resources\/src\/stylesheets\/compiled-css\/screen-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -703,8 +720,8 @@
 		"oS": 0
 		},
 	"\/resources\/src\/stylesheets\/screen.scss": {
-		"aP": 1,
-		"bl": 1,
+		"aP": 0,
+		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,

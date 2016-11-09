@@ -11,8 +11,8 @@ const Route = use('Route')
 
 // See 'Reourceful Routes' @ http://www.adonisjs.com/docs/3.1/routing
 // These API routes were pre-vue and will need to be modified
-// Route.resource('users', 'UserController');
-// Route.resource('submissions', 'SubmissionController');
+Route.resources('users', 'UserController');
+Route.resources('submissions', 'SubmissionController');
 
 /*
 |--------------------------------------------------------------------------

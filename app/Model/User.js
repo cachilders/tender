@@ -3,16 +3,16 @@
 const Lucid = use('Lucid');
 
 class User extends Lucid {
-  static boot() { // the boot static allows the attachment of hooks
+  static boot () { // the boot static allows the attachment of hooks
     super.boot();
     this.addHook('beforeCreate', 'User.encryptPassword');
   }
 
-  profiles() {
+  profiles () {
     return this.hasOne('App/Model/Profile');
   }
 
-  submissions() {
+  submissions () {
     return this.hasMany('App/Model/Submission');
   }
 
