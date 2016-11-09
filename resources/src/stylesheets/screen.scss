@@ -7,9 +7,11 @@
 
 // Global Partials
 
-@import "typesetting.scss";
+@import "base/typesetting.scss";
 
 
 // Vendors
 
-@import "vendors/bourbon", "vendors/neat", "vendors/bitters/base";
+@import "vendors/bourbon";
+@import "vendors/neat";
+@import "vendors/bourbon", "vendors/bitters/base";
