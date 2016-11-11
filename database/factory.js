@@ -23,7 +23,7 @@ Factory.blueprint('App/Model/User', (fake) => {
     username: fake.username(),
     email: fake.email(),
     password: fake.word(),
-    twitter: fake.twitter()
+    avatar: fake.domain()
   };
 });
 
@@ -32,18 +32,17 @@ Factory.blueprint('App/Model/User', (fake) => {
 | Submission Model Blueprint
 |--------------------------------------------------------------------------
 */
-Factory.blueprint('App/Model/Submission', (fake) => {
-  return {
-    // username: fake.username(),
-    submitted_to: fake.word(),
-    submission_method: fake.domain(),
-    contact_information: fake.email(),
-    due_date: fake.date({string: true, american: false}),
-    submitted_date: fake.date({string: true, american: false}),
-    status: fake.word(),
-    link_to_listing: fake.domain(),
-    notes: fake.paragraph(),
-    draft_url: fake.domain(),
-    draft_file: fake.wp8_anid2()
-  };
-});
+// Factory.blueprint('App/Model/Submission', (fake) => {
+//   return {
+//     // username: fake.username(),
+//     submitted_to: fake.word(),
+//     submission_method: fake.domain(),
+//     // contact_information: fake.email(),
+//     // due_date: fake.date({string: true, american: false}),
+//     // submitted_date: fake.date({string: true, american: false}),
+//     // status: fake.word(),
+//     // link_to_listing: fake.domain(),
+//     // notes: fake.paragraph(),
+//     // draft_url: fake.domain()
+//   };
+// });

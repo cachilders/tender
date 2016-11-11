@@ -4,16 +4,8 @@ module.exports = {
     google: {
       clientId: process.env.GOOGLE_OAUTH_CLIENT,
       clientSecret: process.env.GOOGLE_OAUTH_SECRET,
-      redirectUri: process.env.GOOGLE_OAUTH_REDIRECT // process.env.GOOGLE_OAUTH_REDIRECT_LOCAL
+      redirectUri: process.env.GOOGLE_OAUTH_REDIRECT_LOCAL // process.env.GOOGLE_OAUTH_REDIRECT
     }
-
-    // // TODO developer credentials
-    // // Configuration for github
-    // github: {
-    //   clientId: '',
-    //   clientSecret: '',
-    //   redirectUri: ''
-    // }
 
   }
 };

@@ -8,6 +8,10 @@ class User extends Lucid {
     this.addHook('beforeCreate', 'User.encryptPassword');
   }
 
+  apiTokens () {
+    return this.hasMany('App/Model/Token');
+  }
+
   profiles () {
     return this.hasOne('App/Model/Profile');
   }
