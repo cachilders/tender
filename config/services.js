@@ -1,16 +1,10 @@
 module.exports = {
   ally: {
 
-    twitter: {
-      clientId: '',
-      clientSecret: '',
-      redirectUri: ''
-    },
-
     google: {
-      clientId: '',
-      clientSecret: '',
-      redirectUri: ''
+      clientId: process.env.GOOGLE_OAUTH_CLIENT,
+      clientSecret: process.env.GOOGLE_OAUTH_SECRET,
+      redirectUri: process.env.GOOGLE_OAUTH_REDIRECT // process.env.GOOGLE_OAUTH_REDIRECT_LOCAL
     }
 
     // // TODO developer credentials

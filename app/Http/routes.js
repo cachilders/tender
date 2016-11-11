@@ -4,6 +4,15 @@ const Route = use('Route');
 
 /*
 |--------------------------------------------------------------------------
+| Authentication routes
+|--------------------------------------------------------------------------
+*/
+
+Route.get('/g-auth/login', 'GAuthController.redirect');
+Route.get('/g-auth/result', 'GAuthController.handleCallback');
+
+/*
+|--------------------------------------------------------------------------
 | API routes
 |--------------------------------------------------------------------------
 */
@@ -19,12 +28,6 @@ Route.resources('submissions', 'SubmissionController');
 |--------------------------------------------------------------------------
 */
 
-// Leaving this in place for the time to get a sense of mixing static and SPA
-// Route.on('about').render('about');
 
-// Pre-vue wildcard route
-// Route.any('*', function * (request, response) {
-//   yield response.sendView('home');
-// });
 
 Route.any('*', 'WebAppController.render');

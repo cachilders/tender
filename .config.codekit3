@@ -69,6 +69,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/app\/Http\/Controllers\/GAuthController.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/app\/Http\/Controllers\/GAuthController-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/app\/Http\/Controllers\/ProfileController.js": {
 		"ft": 64,
 		"mi": 0,
@@ -311,6 +320,15 @@
 		"mi": 0,
 		"oA": 1,
 		"oAP": "\/config\/redis-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/config\/services.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/config\/services-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -1774,15 +1792,6 @@
 		"mi": 0,
 		"oA": 1,
 		"oAP": "\/server-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/services.js": {
-		"ft": 64,
-		"mi": 0,
-		"oA": 1,
-		"oAP": "\/services-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0

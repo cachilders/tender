@@ -1,5 +1,3 @@
-require('@risingstack/trace'); // Instantiate Trace
-
 /*
 |--------------------------------------------------------------------------
 | Http Server
@@ -11,10 +9,10 @@ require('@risingstack/trace'); // Instantiate Trace
 |
 */
 
-const http = require('./bootstrap/http')
+const http = require('./bootstrap/http');
 http(function () {
-  use('Event').fire('Http.start')
+  use('Event').fire('Http.start');
 
   // Start the renderer bundle as soon as possible
-  use('App/Http/Controllers/WebAppController')
+  use('App/Http/Controllers/WebAppController');
 });
