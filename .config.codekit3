@@ -27,12 +27,6 @@
 		"oAP": "\/.env",
 		"oF": 0
 		},
-	"\/.env.example": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/.env.example",
-		"oF": 0
-		},
 	"\/.eslintignore": {
 		"ft": 8192,
 		"oA": 2,

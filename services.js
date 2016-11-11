@@ -11,7 +11,7 @@ module.exports = {
       clientId: '',
       clientSecret: '',
       redirectUri: ''
-    },
+    }
 
     // // TODO developer credentials
     // // Configuration for github

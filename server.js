@@ -1,3 +1,5 @@
+require('@risingstack/trace'); // Instantiate Trace
+
 /*
 |--------------------------------------------------------------------------
 | Http Server
@@ -15,4 +17,4 @@ http(function () {
 
   // Start the renderer bundle as soon as possible
   use('App/Http/Controllers/WebAppController')
-})
+});
