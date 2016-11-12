@@ -414,6 +414,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/database\/migrations\/1478968629503_create_tokens_table.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/database\/migrations\/1478968629503_create_tokens_table-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/database\/migrations\/deprecated\/1478904090763_create_users_table.js": {
 		"ft": 64,
 		"mi": 0,
@@ -482,6 +491,24 @@
 		"mi": 0,
 		"oA": 1,
 		"oAP": "\/database\/migrations\/deprecated\/1478915625463_create_users_table-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/database\/migrations\/deprecated\/1478968051267_create_tokens_table.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/database\/migrations\/deprecated\/1478968051267_create_tokens_table-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/database\/migrations\/deprecated\/1478968433656_create_tokens_table.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/database\/migrations\/deprecated\/1478968433656_create_tokens_table-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0

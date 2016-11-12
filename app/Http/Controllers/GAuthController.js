@@ -21,9 +21,9 @@ class GAuthController {
     };
 
     const user = yield User.findOrCreate(searchAttr, newUser);
-    // request.auth.loginViaId(user.id);
-    // {email: user.email, token: googleUser.getAccessToken()}
-    // response.json();
+    user.id = user.email; // Schema uses email as unique identifier
+    const token = yield request.auth.generate(user);
+
     response.redirect('/users/' + user.email);
   }
 
