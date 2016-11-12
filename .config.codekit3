@@ -414,44 +414,74 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/database\/migrations\/.gitkeep": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/database\/migrations\/.gitkeep",
-		"oF": 0
-		},
-	"\/database\/migrations\/1478904090763_create_users_table.js": {
+	"\/database\/migrations\/1478915547987_create_profiles_table.js": {
 		"ft": 64,
 		"mi": 0,
 		"oA": 1,
-		"oAP": "\/database\/migrations\/1478904090763_create_users_table-min.js",
+		"oAP": "\/database\/migrations\/1478915547987_create_profiles_table-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/database\/migrations\/1478904090764_create_tokens_table.js": {
+	"\/database\/migrations\/1478915583936_create_tokens_table.js": {
 		"ft": 64,
 		"mi": 0,
 		"oA": 1,
-		"oAP": "\/database\/migrations\/1478904090764_create_tokens_table-min.js",
+		"oAP": "\/database\/migrations\/1478915583936_create_tokens_table-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/database\/migrations\/1478904732338_create_profiles_table.js": {
+	"\/database\/migrations\/deprecated\/1478904090763_create_users_table.js": {
 		"ft": 64,
 		"mi": 0,
 		"oA": 1,
-		"oAP": "\/database\/migrations\/1478904732338_create_profiles_table-min.js",
+		"oAP": "\/database\/migrations\/deprecated\/1478904090763_create_users_table-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/database\/migrations\/1478905010261_create_submissions_table.js": {
+	"\/database\/migrations\/deprecated\/1478904090764_create_tokens_table.js": {
 		"ft": 64,
 		"mi": 0,
 		"oA": 1,
-		"oAP": "\/database\/migrations\/1478905010261_create_submissions_table-min.js",
+		"oAP": "\/database\/migrations\/deprecated\/1478904090764_create_tokens_table-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/database\/migrations\/deprecated\/1478904732338_create_profiles_table.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/database\/migrations\/deprecated\/1478904732338_create_profiles_table-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/database\/migrations\/deprecated\/1478905010261_create_submissions_table.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/database\/migrations\/deprecated\/1478905010261_create_submissions_table-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/database\/migrations\/deprecated\/1478915504522_create_submissions_table.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/database\/migrations\/deprecated\/1478915504522_create_submissions_table-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/database\/migrations\/deprecated\/1478915625463_create_users_table.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/database\/migrations\/deprecated\/1478915625463_create_users_table-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0

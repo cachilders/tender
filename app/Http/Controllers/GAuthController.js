@@ -21,7 +21,8 @@ class GAuthController {
     };
 
     const user = yield User.findOrCreate(searchAttr, newUser);
-    request.auth.loginViaId(user.id);
+    // request.auth.loginViaId(user.id);
+    response.json(user);
   }
 
 }

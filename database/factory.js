@@ -22,7 +22,6 @@ Factory.blueprint('App/Model/User', (fake) => {
   return {
     username: fake.username(),
     email: fake.email(),
-    password: fake.word(),
     avatar: fake.domain()
   };
 });
