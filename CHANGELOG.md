@@ -7,9 +7,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## Unreleased
 ### Added
 - User, Submission, and Profile routes
+- Implement google auth
+- Login/Create users
+- Route logged in user to profile
 
 ### Changed
-- 
+- Use ace migration tools to refactor tables
 
 ## 0.2.2 - 2016-11-8
 ### Added

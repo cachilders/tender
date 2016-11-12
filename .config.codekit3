@@ -414,24 +414,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/database\/migrations\/1478915547987_create_profiles_table.js": {
-		"ft": 64,
-		"mi": 0,
-		"oA": 1,
-		"oAP": "\/database\/migrations\/1478915547987_create_profiles_table-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/database\/migrations\/1478915583936_create_tokens_table.js": {
-		"ft": 64,
-		"mi": 0,
-		"oA": 1,
-		"oAP": "\/database\/migrations\/1478915583936_create_tokens_table-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/database\/migrations\/deprecated\/1478904090763_create_users_table.js": {
 		"ft": 64,
 		"mi": 0,
@@ -473,6 +455,24 @@
 		"mi": 0,
 		"oA": 1,
 		"oAP": "\/database\/migrations\/deprecated\/1478915504522_create_submissions_table-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/database\/migrations\/deprecated\/1478915547987_create_profiles_table.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/database\/migrations\/deprecated\/1478915547987_create_profiles_table-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/database\/migrations\/deprecated\/1478915583936_create_tokens_table.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/database\/migrations\/deprecated\/1478915583936_create_tokens_table-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0

@@ -4,38 +4,40 @@ const User = use('App/Model/User');
 
 class UserController {
 
-  * index (request, response) {
+  * show (request, response) {
     try {
-      const users = yield User.all();
-      yield response.status(200).json(users);
+      const user = yield User.query()
+        .where('email', request.param('id'))
+        .first();
+      console.log(user.attributes);
     } catch (e) {
-      response.send(e.message);
+      console.error(e.message);
     }
   }
 
-  * create (request, response) {
-    //
-  }
+  // * index (request, response) {
+  //   //
+  // }
 
-  * store (request, response) {
-    //
-  }
+  // * create (request, response) {
+  //   //
+  // }
 
-  * show (request, response) {
-    //
-  }
+  // * store (request, response) {
+  //   //
+  // }
 
-  * edit (request, response) {
-    //
-  }
+  // * edit (request, response) {
+  //   //
+  // }
 
-  * update (request, response) {
-    //
-  }
+  // * update (request, response) {
+  //   //
+  // }
 
-  * destroy (request, response) {
-    //
-  }
+  // * destroy (request, response) {
+  //   //
+  // }
 
 }
 

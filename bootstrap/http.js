@@ -1,5 +1,4 @@
 'use strict';
-require('@risingstack/trace'); // Instantiate Trace
 
 /*
 |--------------------------------------------------------------------------
