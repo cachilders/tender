@@ -9,6 +9,7 @@ const Route = use('Route');
 */
 
 Route.get('/g-auth/login', 'GAuthController.redirect');
+Route.get('/g-auth/logout', 'GAuthController.revoke');
 Route.get('/g-auth/result', 'GAuthController.handleCallback');
 
 /*
@@ -20,10 +21,10 @@ Route.get('/g-auth/result', 'GAuthController.handleCallback');
 // See 'Reourceful Routes' @ http://www.adonisjs.com/docs/3.1/routing
 // These API routes were pre-vue and will need to be modified
 Route.resources('users', 'UserController')
-  .only('show', 'update')
-  .middleware('prep', 'auth');
-Route.resources('submissions', 'SubmissionController')
-  .middleware('prep', 'auth');
+  .only('show', 'update');
+  // .middleware('auth');
+Route.resources('submissions', 'SubmissionController');
+  // .middleware('auth');
 
 /*
 |--------------------------------------------------------------------------

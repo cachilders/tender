@@ -29,11 +29,17 @@ class GAuthController {
       token = yield request.auth.generate(user);
     }
 
-    console.log(yield request.auth.check())
-
     response
       .cookie('user', user.id, { path: '/' })
       .redirect('/users/' + user.email);
+  }
+
+  * revoke (request, response) {
+    const user = yield User.find('email', request.cookie('user', null));
+    yield request.auth.revokeAll(user);
+    response
+      .cookie('user', null, { path: '/' })
+      .redirect('/');
   }
 
 }

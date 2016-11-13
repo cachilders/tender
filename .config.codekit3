@@ -426,6 +426,24 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/database\/migrations\/1479052357161_create_users_table.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/database\/migrations\/1479052357161_create_users_table-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/database\/migrations\/1479052357163_create_tokens_table.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/database\/migrations\/1479052357163_create_tokens_table-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/database\/migrations\/deprecated\/1478904090763_create_users_table.js": {
 		"ft": 64,
 		"mi": 0,
