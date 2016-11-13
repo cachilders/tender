@@ -8,8 +8,8 @@ const Route = use('Route');
 |--------------------------------------------------------------------------
 */
 
-Route.get('/g-auth/login', 'GAuthController.redirect');
-Route.get('/g-auth/logout', 'GAuthController.revoke');
+Route.get('/login', 'GAuthController.redirect');
+Route.get('/logout', 'GAuthController.revoke');
 Route.get('/g-auth/result', 'GAuthController.handleCallback');
 
 /*

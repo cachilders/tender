@@ -123,14 +123,11 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/app\/Http\/Middleware\/AttachTokenHeader.js": {
-		"ft": 64,
-		"mi": 0,
-		"oA": 1,
-		"oAP": "\/app\/Http\/Middleware\/AttachTokenHeader-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
+	"\/app\/Http\/Middleware\/.gitkeep": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/Http\/Middleware\/.gitkeep",
+		"oF": 0
 		},
 	"\/app\/Http\/routes.js": {
 		"ft": 64,
