@@ -69,15 +69,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/app\/Http\/Controllers\/GAuthController.js": {
-		"ft": 64,
-		"mi": 0,
-		"oA": 1,
-		"oAP": "\/app\/Http\/Controllers\/GAuthController-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/app\/Http\/Controllers\/ProfileController.js": {
 		"ft": 64,
 		"mi": 0,
@@ -270,15 +261,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/config\/auth.js": {
-		"ft": 64,
-		"mi": 0,
-		"oA": 1,
-		"oAP": "\/config\/auth-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/config\/bodyParser.js": {
 		"ft": 64,
 		"mi": 0,
@@ -414,11 +396,11 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/database\/migrations\/1478968629503_create_tokens_table.js": {
+	"\/database\/migrations\/1478998976932_create_tokens_table.js": {
 		"ft": 64,
 		"mi": 0,
 		"oA": 1,
-		"oAP": "\/database\/migrations\/1478968629503_create_tokens_table-min.js",
+		"oAP": "\/database\/migrations\/1478998976932_create_tokens_table-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -509,6 +491,42 @@
 		"mi": 0,
 		"oA": 1,
 		"oAP": "\/database\/migrations\/deprecated\/1478968433656_create_tokens_table-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/database\/migrations\/deprecated\/1478968629503_create_tokens_table.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/database\/migrations\/deprecated\/1478968629503_create_tokens_table-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/database\/migrations\/deprecated\/1478995602009_create_tokens_table.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/database\/migrations\/deprecated\/1478995602009_create_tokens_table-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/database\/migrations\/deprecated\/1478998240629_create_users_table.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/database\/migrations\/deprecated\/1478998240629_create_users_table-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/database\/migrations\/deprecated\/1478998751040_create_tokens_table.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/database\/migrations\/deprecated\/1478998751040_create_tokens_table-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
