@@ -21,9 +21,9 @@ Route.get('/g-auth/result', 'GAuthController.handleCallback');
 // These API routes were pre-vue and will need to be modified
 Route.resources('users', 'UserController')
   .only('show', 'update')
-  .middleware('auth');
+  .middleware('prep', 'auth');
 Route.resources('submissions', 'SubmissionController')
-  .middleware('auth');
+  .middleware('prep', 'auth');
 
 /*
 |--------------------------------------------------------------------------

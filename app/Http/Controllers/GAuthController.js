@@ -29,9 +29,11 @@ class GAuthController {
       token = yield request.auth.generate(user);
     }
 
-    const isLoggedIn = yield request.auth.check();
-    console.log(isLoggedIn);
-    response.redirect('/users/' + user.email);
+    console.log(yield request.auth.check())
+
+    response
+      .cookie('user', user.id, { path: '/' })
+      .redirect('/users/' + user.email);
   }
 
 }
