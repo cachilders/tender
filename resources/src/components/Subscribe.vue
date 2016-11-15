@@ -14,9 +14,9 @@
       <p hidden>
         <label for="tlemail">Subscribe for updates</label>
       </p><p>
-        <input type="text" name="email" id="tlemail" placeholder="Enter your email address for updates" />
+        <input type="text" name="email" id="tlemail" placeholder="Stay in the Loop" />
         <input type="hidden" value="1" name="embed"/>
-        <input type="submit" value="Subscribe" />
+        <button type="submit">Subscribe</button>
       </p>
     </form>
   </div>
@@ -32,4 +32,21 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+  div {
+    width: 25rem;
+    margin: auto;
+  }
+  input {
+    width: 15rem;
+    height: 2.5rem;
+    opacity: 0.9;
+    float: left;
+  }
+  button {
+    width: 10rem;
+    height: 2.5rem;
+    box-shadow: none;
+    opacity: 0.8;
+    float: left;
+  }
 </style>
