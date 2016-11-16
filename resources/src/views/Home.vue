@@ -5,8 +5,11 @@
       <h1>TENDER</h1>
       <h2>Submission Tracking for Authors</h2>
       <h2>Coming Soon</h2>
+
       <icons></icons>
+
       <subscribe></subscribe>
+
     </div>
   </div>
 </template>

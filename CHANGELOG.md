@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Implement google auth (partial)
 - Create users
 - Integrate route auth (partial)
+- Add TinyLetter integration to landing page
 
 ### Changed
 - Use ace migration tools to refactor tables
