@@ -9,7 +9,7 @@ class UserController {
       const user = yield User.query()
         .where('email', request.param('id'))
         .first();
-      console.log(user.attributes);
+      response.send(user.attributes);
     } catch (e) {
       console.error(e.message);
     }
