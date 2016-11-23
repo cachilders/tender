@@ -32,6 +32,4 @@ Route.resources('submissions', 'SubmissionController');
 |--------------------------------------------------------------------------
 */
 
-
-
 Route.any('*', 'WebAppController.render');

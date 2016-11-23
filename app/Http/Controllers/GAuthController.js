@@ -21,13 +21,13 @@ class GAuthController {
     };
 
     const user = yield User.findOrCreate(searchAttr, newUser);
+    user.id = newUser.email;
     let token = yield user.apiTokens()
+      .where('user_id', user.id)
       .whereNot('is_revoked', true)
       .orderBy('created_at', 'desc');
 
-    // token[0].token
-
-    if (!token[0] || token.is_revoked) {
+    if (!token[0]) {
       token = yield request.auth.authenticator('api').generate(user);
     }
 
@@ -37,6 +37,7 @@ class GAuthController {
   }
 
   * revoke (request, response) {
+    // non-functioning
     const user = yield User.find('email', request.cookie('user', null));
     yield request.auth.revokeAll(user);
     response
