@@ -11,10 +11,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Create users
 - Integrate route auth (partial)
 - Add TinyLetter integration to landing page
+- Add data schema reference
+
 
 ### Changed
 - Use ace migration tools to refactor tables
 - Disable route auth for view dev
+- Offload profile data to profile table
 
 ## 0.2.2 - 2016-11-8
 ### Added

@@ -1,6 +1,7 @@
 'use strict';
 
 const User = use('App/Model/User');
+const Profile = use('App/Model/Profile');
 
 class GAuthController {
   * redirect (request, response) {
@@ -15,13 +16,12 @@ class GAuthController {
     };
 
     const newUser = {
-      username: apiUser.getName(),
-      email: apiUser.getEmail(),
-      avatar: apiUser.getAvatar()
+      email: apiUser.getEmail()
     };
 
     const user = yield User.findOrCreate(searchAttr, newUser);
-    user.id = newUser.email;
+    user.id = user.email;
+    let profile = yield user.profiles().fetch();
     let token = yield user.apiTokens()
       .where('user_id', user.id)
       .whereNot('is_revoked', true)
@@ -29,6 +29,14 @@ class GAuthController {
 
     if (!token[0]) {
       token = yield request.auth.authenticator('api').generate(user);
+    }
+
+    if (!profile) {
+      profile = new Profile();
+      profile.user_id = user.email;
+      profile.img = apiUser.getAvatar();
+      profile.username = apiUser.getName();
+      yield user.profiles().save(profile);
     }
 
     response
