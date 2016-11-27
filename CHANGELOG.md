@@ -6,6 +6,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 ### Added
+-
+
+### Changed
+-
+
+## 0.2.3 - 2016-11-27
+### Added
 - User, Submission, and Profile routes
 - Implement google auth (partial)
 - Create users
