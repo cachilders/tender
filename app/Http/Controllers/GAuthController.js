@@ -11,6 +11,8 @@ class GAuthController {
   * handleCallback (request, response) {
     const apiUser = yield request.ally.driver('google').getUser();
 
+    // TODO: Check for active user cookie prior to request
+
     const searchAttr = {
       email: apiUser.getEmail()
     };
@@ -45,8 +47,8 @@ class GAuthController {
   }
 
   * revoke (request, response) {
-    // non-functioning
-    const user = yield User.find('email', request.cookie('user', null));
+    // Currently requires modification of adonis-auth/src/Lucid/index.js module to function. Awaiting patch.
+    const user = yield User.findBy('email', request.cookie('user', null));
     yield request.auth.revokeAll(user);
     response
       .cookie('user', null, { path: '/' })
