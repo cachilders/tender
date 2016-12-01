@@ -16,6 +16,11 @@ class SubmissionController {
   }
 
   * create (request, response) {
+    // Form to add sub
+  }
+
+  * store (request, response) {
+    // FORMAT:
     // request.submission = {
     //   submittedTo: 'Some Publisher',
     //   submissionMethod: 'Email',
@@ -49,12 +54,19 @@ class SubmissionController {
     }
   }
 
-  * store (request, response) {
-    //
-  }
-
   * show (request, response) {
-    //
+    try {
+      const submission = yield Submission.query()
+        .where('id', request.param('id'))
+        .first();
+      if (submission) {
+        response.send(submission.attributes);
+      } else {
+        response.send('Hm. That record doesn\'t exist.');
+      }
+    } catch (e) {
+      console.error(e.message);
+    }
   }
 
   * edit (request, response) {

@@ -5,7 +5,6 @@ const User = use('App/Model/User');
 class UserController {
 
   * show (request, response) {
-    console.log(request.cookie('user'));
     try {
       const user = yield User.query()
         .where('email', request.param('id'))
