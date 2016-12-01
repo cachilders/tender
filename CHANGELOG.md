@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## Unreleased
 ### Added
 - Allow user logout
+- Yield all submissions for current user
 
 ### Changed
 -

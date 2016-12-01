@@ -165,6 +165,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/app\/Model\/SCHEMAS.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/app\/Model\/SCHEMAS-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/app\/Model\/Submission.js": {
 		"ft": 64,
 		"mi": 0,
@@ -414,29 +423,38 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/database\/migrations\/1478998976932_create_tokens_table.js": {
+	"\/database\/migrations\/1480234575515_users.js": {
 		"ft": 64,
 		"mi": 0,
 		"oA": 1,
-		"oAP": "\/database\/migrations\/1478998976932_create_tokens_table-min.js",
+		"oAP": "\/database\/migrations\/1480234575515_users-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/database\/migrations\/1479052357161_create_users_table.js": {
+	"\/database\/migrations\/1480234593457_profiles.js": {
 		"ft": 64,
 		"mi": 0,
 		"oA": 1,
-		"oAP": "\/database\/migrations\/1479052357161_create_users_table-min.js",
+		"oAP": "\/database\/migrations\/1480234593457_profiles-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/database\/migrations\/1479052357163_create_tokens_table.js": {
+	"\/database\/migrations\/1480234703671_submissions.js": {
 		"ft": 64,
 		"mi": 0,
 		"oA": 1,
-		"oAP": "\/database\/migrations\/1479052357163_create_tokens_table-min.js",
+		"oAP": "\/database\/migrations\/1480234703671_submissions-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/database\/migrations\/1480235430208_tokens.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/database\/migrations\/1480235430208_tokens-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -567,11 +585,47 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/database\/seeds\/User.js": {
+	"\/database\/migrations\/deprecated\/1478998976932_create_tokens_table.js": {
 		"ft": 64,
 		"mi": 0,
 		"oA": 1,
-		"oAP": "\/database\/seeds\/User-min.js",
+		"oAP": "\/database\/migrations\/deprecated\/1478998976932_create_tokens_table-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/database\/migrations\/deprecated\/1479052357161_create_users_table.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/database\/migrations\/deprecated\/1479052357161_create_users_table-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/database\/migrations\/deprecated\/1479052357163_create_tokens_table.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/database\/migrations\/deprecated\/1479052357163_create_tokens_table-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/database\/migrations\/deprecated\/1480234685393_tokens.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/database\/migrations\/deprecated\/1480234685393_tokens-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/database\/seeds\/Submission.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/database\/seeds\/Submission-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -762,6 +816,12 @@
 		"oAP": "\/resources\/src\/components\/Icons.vue",
 		"oF": 0
 		},
+	"\/resources\/src\/components\/Subscribe.vue": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/resources\/src\/components\/Subscribe.vue",
+		"oF": 0
+		},
 	"\/resources\/src\/router\/index.js": {
 		"ft": 64,
 		"mi": 0,
@@ -793,12 +853,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/resources\/src\/stylesheets\/abstracts\/.gitkeep",
-		"oF": 0
-		},
-	"\/resources\/src\/stylesheets\/base\/.gitkeep": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/resources\/src\/stylesheets\/base\/.gitkeep",
 		"oF": 0
 		},
 	"\/resources\/src\/stylesheets\/base\/_typefaces.scss": {
