@@ -7,10 +7,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## Unreleased
 ### Added
 - Allow user logout
-- Yield all submissions for current user
+- Implemented submission operations
+- Allow user to update and suspend account
 
 ### Changed
--
+- Manage varchar constraints on DB tables
 
 ## 0.2.3 - 2016-11-27
 ### Added

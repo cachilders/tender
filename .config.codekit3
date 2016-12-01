@@ -165,15 +165,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/app\/Model\/SCHEMAS.js": {
-		"ft": 64,
-		"mi": 0,
-		"oA": 1,
-		"oAP": "\/app\/Model\/SCHEMAS-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/app\/Model\/Submission.js": {
 		"ft": 64,
 		"mi": 0,
@@ -423,38 +414,38 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/database\/migrations\/1480234575515_users.js": {
+	"\/database\/migrations\/1480617601867_users.js": {
 		"ft": 64,
 		"mi": 0,
 		"oA": 1,
-		"oAP": "\/database\/migrations\/1480234575515_users-min.js",
+		"oAP": "\/database\/migrations\/1480617601867_users-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/database\/migrations\/1480234593457_profiles.js": {
+	"\/database\/migrations\/1480617944489_submissions.js": {
 		"ft": 64,
 		"mi": 0,
 		"oA": 1,
-		"oAP": "\/database\/migrations\/1480234593457_profiles-min.js",
+		"oAP": "\/database\/migrations\/1480617944489_submissions-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/database\/migrations\/1480234703671_submissions.js": {
+	"\/database\/migrations\/1480618550641_tokens.js": {
 		"ft": 64,
 		"mi": 0,
 		"oA": 1,
-		"oAP": "\/database\/migrations\/1480234703671_submissions-min.js",
+		"oAP": "\/database\/migrations\/1480618550641_tokens-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/database\/migrations\/1480235430208_tokens.js": {
+	"\/database\/migrations\/1480619049813_profiles.js": {
 		"ft": 64,
 		"mi": 0,
 		"oA": 1,
-		"oAP": "\/database\/migrations\/1480235430208_tokens-min.js",
+		"oAP": "\/database\/migrations\/1480619049813_profiles-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -612,11 +603,65 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/database\/migrations\/deprecated\/1480234575515_users.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/database\/migrations\/deprecated\/1480234575515_users-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/database\/migrations\/deprecated\/1480234593457_profiles.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/database\/migrations\/deprecated\/1480234593457_profiles-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/database\/migrations\/deprecated\/1480234685393_tokens.js": {
 		"ft": 64,
 		"mi": 0,
 		"oA": 1,
 		"oAP": "\/database\/migrations\/deprecated\/1480234685393_tokens-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/database\/migrations\/deprecated\/1480234703671_submissions.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/database\/migrations\/deprecated\/1480234703671_submissions-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/database\/migrations\/deprecated\/1480235430208_tokens.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/database\/migrations\/deprecated\/1480235430208_tokens-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/database\/migrations\/deprecated\/1480618503309_profiles.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/database\/migrations\/deprecated\/1480618503309_profiles-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/database\/migrations\/deprecated\/1480618852783_profiles.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/database\/migrations\/deprecated\/1480618852783_profiles-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -640,6 +685,12 @@
 		"ft": 65536,
 		"oA": 2,
 		"oAP": "\/build\/node_modules",
+		"oF": 0
+		},
+	"\/npm-debug.log": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/npm-debug.log",
 		"oF": 0
 		},
 	"\/package.json": {
@@ -2002,6 +2053,24 @@
 		"oA": 2,
 		"oAP": "\/storage\/.gitkeep",
 		"oF": 0
+		},
+	"\/TODO.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/TODO.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		}
 	},
 "hooks": [

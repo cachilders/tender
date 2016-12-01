@@ -41,7 +41,7 @@ Factory.blueprint('App/Model/Submission', (fake) => {
     submitted_date: new Date(),
     status: fake.word(),
     link_to_listing: fake.domain(),
-    notes: fake.paragraph(),
+    notes: fake.sentence(),
     draft_url: fake.domain()
   };
 });
