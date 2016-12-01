@@ -23,7 +23,8 @@ Route.get('/g-auth/result', 'GAuthController.handleCallback');
 Route.resources('users', 'UserController')
   .only('show', 'update');
   // .middleware('auth');
-Route.resources('submissions', 'SubmissionController');
+Route.resources('submissions', 'SubmissionController')
+  .except('create', 'edit');
   // .middleware('auth');
 
 /*
