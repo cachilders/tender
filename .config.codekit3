@@ -2054,6 +2054,21 @@
 		"oAP": "\/storage\/.gitkeep",
 		"oF": 0
 		},
+	"\/test\/mocha.opts": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/test\/mocha.opts",
+		"oF": 0
+		},
+	"\/test\/test-test.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/test\/test-test-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/TODO.md": {
 		"cS": 0,
 		"eF": 1,

@@ -33,3 +33,14 @@ lib-cov
 
 # Mac Only
 .DS_Store
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
