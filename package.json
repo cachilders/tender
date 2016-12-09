@@ -49,7 +49,7 @@
     "babel-plugin-transform-runtime": "^6.15.0",
     "babel-preset-es2015": "^6.13.2",
     "babel-preset-stage-2": "^6.11.0",
-    "backpat": "^0.3.1",
+    "backpat": "^0.4.0",
     "clean-webpack-plugin": "^0.1.13",
     "cross-env": "^2.0.0",
     "css-loader": "^0.25.0",

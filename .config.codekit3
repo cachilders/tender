@@ -69,6 +69,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/app\/Commands\/Stack.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/app\/Commands\/Stack-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/app\/Http\/Controllers\/GAuthController.js": {
 		"ft": 64,
 		"mi": 0,
@@ -685,12 +694,6 @@
 		"ft": 65536,
 		"oA": 2,
 		"oAP": "\/build\/node_modules",
-		"oF": 0
-		},
-	"\/npm-debug.log": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/npm-debug.log",
 		"oF": 0
 		},
 	"\/package.json": {

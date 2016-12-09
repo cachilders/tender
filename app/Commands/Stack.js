@@ -1,7 +1,7 @@
 'use strict';
 
 const Command = use('Command');
-const backpat = require('backpat');
+const backpat = require('backpat').backpat;
 
 class Stack extends Command {
 
