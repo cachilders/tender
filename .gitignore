@@ -6,6 +6,7 @@ dist/
 
 # Codekit
 .codekit-cache
+.config.codekit3
 
 # Node modules
 node_modules

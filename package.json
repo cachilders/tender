@@ -67,7 +67,7 @@
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
     "vue": "^2.0.3",
-    "vue-loader": "^9.7.0",
+    "vue-loader": "^9.9.5",
     "vue-router": "^2.0.1",
     "vue-server-renderer": "^2.0.3",
     "vuelidate": "^0.1.1",
