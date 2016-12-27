@@ -73,7 +73,7 @@
     "vuelidate": "^0.1.1",
     "vuex": "^2.0.0",
     "vuex-router-sync": "^3.0.0",
-    "webpack": "^2.1.0-beta.25",
+    "webpack": "^2.1.0-beta.28",
     "youch": "^1.0.1"
   },
   "devDependencies": {
