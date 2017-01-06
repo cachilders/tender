@@ -14,7 +14,7 @@ class Stack extends Command {
   }
 
   * handle (args, options) {
-    backpat((stack) => console.log(stack));
+    backpat().then(console.log);
   }
 
 }
