@@ -12,4 +12,4 @@ module.exports = {
     'stylus': 'vue-style-loader!css-loader!stylus-loader',
     'styl': 'vue-style-loader!css-loader!stylus-loader'
   }
-};
+}

@@ -1,9 +1,9 @@
-const path = require('path');
-const resolve = file => path.resolve(__dirname, file);
-const CleanWebpackPlugin = require('clean-webpack-plugin');
-const vueLoaderConfig = require('./vue-loader.config');
-const outputDir = require('../vue').outputDir;
-const urlJoin = function () { return [].slice.call(arguments).join('/').replace(/\/+/g, '/'); };
+const path = require('path')
+const resolve = file => path.resolve(__dirname, file)
+const CleanWebpackPlugin = require('clean-webpack-plugin')
+const vueLoaderConfig = require('./vue-loader.config')
+const outputDir = require('../vue').outputDir
+const urlJoin = function () { return [].slice.call(arguments).join('/').replace(/\/+/g, '/') }
 
 /*
 |--------------------------------------------------------------------------
@@ -61,4 +61,4 @@ module.exports = {
       root: resolve('../../public')
     })
   ]
-};
+}
