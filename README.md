@@ -2,4 +2,4 @@
 
 Submission tracking for writers and other thirsty professionals.
 
-Built with AdonisJs and Vue.js 2.
+Development paused for a bit.
